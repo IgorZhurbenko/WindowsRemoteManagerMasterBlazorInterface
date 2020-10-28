@@ -6,14 +6,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using System.Collections;
+using Abstract;
 
 namespace RemoteManagerMaster
 {
 
-    public class WindowsRemoteManagerMaster : WindowsRemoteManagerGeneral
+    public class RemoteManagerMaster : WindowsRemoteManagerGeneral
     {
         public IUserInteractor UserInteractor;
-        public WindowsRemoteManagerMaster(ICommunicator communicator, ILocalLogger logger, ILocalCacheService cacheService)
+        public RemoteManagerMaster(ICommunicator communicator, ILocalLogger logger, ILocalCacheService cacheService)
             : base(communicator, logger, cacheService)
         {
             //this.UserInteractor = userInteractor;

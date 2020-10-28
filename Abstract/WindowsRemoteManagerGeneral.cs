@@ -4,9 +4,7 @@ using System.Net;
 using System.IO;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Diagnostics;
-using WindowsRemoteManager.YandexDisk;
-
+using System.Diagnostics;
 namespace Abstract
 {
     public abstract class WindowsRemoteManagerGeneral

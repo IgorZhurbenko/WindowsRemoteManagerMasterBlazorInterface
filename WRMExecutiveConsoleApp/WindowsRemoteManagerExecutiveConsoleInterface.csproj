@@ -6,4 +6,8 @@
     <StartupObject>WRMExecutiveConsoleApp.Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RemotaManagerExecutive\RemoteManagerExecutive.csproj" />
+  </ItemGroup>
+
 </Project>

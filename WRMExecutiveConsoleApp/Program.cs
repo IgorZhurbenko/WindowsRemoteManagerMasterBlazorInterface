@@ -1,14 +1,15 @@
-﻿using System;
+﻿using RemoteManagerExecutive;
+using System;
 
 
-namespace WindowsRemoteManagerExecutiveConsoleInterface
+namespace WRMExecutiveConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var WRME = new WindowsRemoteManagerExecutive();
-            WRME.Launch();
+            //var WRME = new WindowsRemoteManagerExecutive();
+            //WRME.Launch();
         }
     }
 }

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
-using WindowsRemoteManager.YandexDisk;
-
+using System.Threading.Tasks;
 namespace Abstract
 {
     public interface ICommunicator

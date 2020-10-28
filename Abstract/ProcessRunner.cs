@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Abstract
 {
-    static class ProcessRunner
+    public static class ProcessRunner
     {
         public static string ExecuteCMDCommand(string command)
         {

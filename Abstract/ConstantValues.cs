@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Abstract.YandexDisk
+namespace Abstract
 {
-    static class ConstantValues
+    public static class ConstantValues
     {
         public static class ManagerStatuses
         {
