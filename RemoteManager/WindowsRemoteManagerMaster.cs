@@ -21,15 +21,15 @@ namespace WindowsRemoteManager
             //this.UserInteractor = userInteractor;
         }
 
-        public WindowsRemoteManagerMaster() : 
-            base(
-                new YandexDiskCommunicator(ConstantValues.ConfigurationDefaultInfo.YandexDiskToken, ConstantValues.ConfigurationDefaultInfo.YandexDiskFolder),
-                new LocalLogger(), 
-                new LocalCacheService()
-                )
-        {
+        //public WindowsRemoteManagerMaster() : 
+        //    base(
+        //        new YandexDiskCommunicator(ConstantValues.ConfigurationDefaultInfo.YandexDiskToken, ConstantValues.ConfigurationDefaultInfo.YandexDiskFolder),
+        //        new LocalLogger(), 
+        //        new LocalCacheService()
+        //        )
+        //{
             
-        }
+        //}
         //private string RecordInstruction()
         //{
         //    string EnteredLine;

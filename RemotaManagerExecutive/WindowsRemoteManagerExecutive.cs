@@ -6,11 +6,9 @@ using System.Linq;
 using System.Threading;
 using System.Net.Mail;
 using System.Net;
-using Newtonsoft;
 using System.Dynamic;
 using System.Threading.Tasks;
 using WindowsRemoteManager.YandexDisk;
-using Newtonsoft.Json;
 
 namespace WindowsRemoteManager
 {
@@ -28,15 +26,15 @@ namespace WindowsRemoteManager
             this.BaseFolder = baseFolder;
         }
 
-        public WindowsRemoteManagerExecutive() : base(
-            new YandexDiskCommunicator(ConstantValues.ConfigurationDefaultInfo.YandexDiskToken, ConstantValues.ConfigurationDefaultInfo.YandexDiskFolder),
-            new LocalLogger(),
-            new LocalCacheService()
-            )
-        {
-            this.ID = Handle.GetMacAddress().Replace("-", "");
-            this.BaseFolder = @$"C:\Users\{Environment.UserName}\appdata\WRME";
-        }
+        //public WindowsRemoteManagerExecutive() : base(
+        //    new YandexDiskCommunicator(ConstantValues.ConfigurationDefaultInfo.YandexDiskToken, ConstantValues.ConfigurationDefaultInfo.YandexDiskFolder),
+        //    new LocalLogger(),
+        //    new LocalCacheService()
+        //    )
+        //{
+        //    this.ID = Handle.GetMacAddress().Replace("-", "");
+        //    this.BaseFolder = @$"C:\Users\{Environment.UserName}\appdata\WRME";
+        //}
 
         private CommandExecutionResult ExecuteBat(Command command)
         {
@@ -97,7 +95,7 @@ namespace WindowsRemoteManager
                 }
                 else if (Instruction.ToLower().StartsWith(@"'setrequestsinterval"))
                 {
-                    string IntervalString = Instruction.Split(" ")[1].Trim();
+                    string IntervalString = Instruction.Split(' ')[1].Trim();
                     try
                     {
                         int Interval = Convert.ToInt32(IntervalString);
@@ -111,9 +109,9 @@ namespace WindowsRemoteManager
                 }
                 else if (Instruction.ToLower().StartsWith(@"'setnickname"))
                 {
-                    if (Instruction.Split(" ").Length > 1)
+                    if (Instruction.Split(' ').Length > 1)
                     {
-                        this.NickName = Instruction.Split(" ")[1].Trim();
+                        this.NickName = Instruction.Split(' ')[1].Trim();
                         result.Add("Nickname of the executive changed to " + this.NickName);
                         Communicator.ReportStatus(ConstantValues.ManagerStatuses.Active);
                     }
@@ -122,7 +120,7 @@ namespace WindowsRemoteManager
             return new CommandExecutionResult()
             {
                 GivenCommandID = command.ID,
-                Output = string.Join('\n', result)
+                Output = string.Join("\n", result)
             };
         }
 

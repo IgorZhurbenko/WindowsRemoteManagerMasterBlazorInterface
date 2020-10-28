@@ -8,7 +8,6 @@ namespace WRMExecutiveConsoleApp
         static void Main(string[] args)
         {
             var WRME = new WindowsRemoteManagerExecutive();
-
             WRME.Launch();
         }
     }
