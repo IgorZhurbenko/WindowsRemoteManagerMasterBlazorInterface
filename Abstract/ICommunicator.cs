@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WindowsRemoteManager.YandexDisk;
 
-namespace WindowsRemoteManager
+namespace Abstract
 {
     public interface ICommunicator
     {

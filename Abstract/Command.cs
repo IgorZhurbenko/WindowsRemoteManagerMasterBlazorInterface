@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WindowsRemoteManager
+namespace Abstract
 {
     public class Command
     {

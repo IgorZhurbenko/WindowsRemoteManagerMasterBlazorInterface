@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace WindowsRemoteManager.YandexDisk
+namespace Abstract
 {
-    public class  LocalLogger : ILocalLogger
+    public class LocalLogger : ILocalLogger
     {
         public string LogFilePath { get; set; }
         public bool DisplayOnConsole { get; set; }

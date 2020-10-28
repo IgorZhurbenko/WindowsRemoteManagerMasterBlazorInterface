@@ -2,14 +2,12 @@
 using System.Threading;
 using System.Net.Mail;
 using System.Net;
-using WindowsRemoteManager;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using System.Collections;
-using WindowsRemoteManager.YandexDisk;
 
-namespace WindowsRemoteManager
+namespace RemoteManagerMaster
 {
 
     public class WindowsRemoteManagerMaster : WindowsRemoteManagerGeneral

@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Diagnostics;
 using WindowsRemoteManager.YandexDisk;
 
-namespace WindowsRemoteManager
+namespace Abstract
 {
     public abstract class WindowsRemoteManagerGeneral
     {

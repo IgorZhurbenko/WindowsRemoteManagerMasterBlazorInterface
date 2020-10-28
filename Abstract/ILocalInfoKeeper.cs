@@ -1,4 +1,4 @@
-﻿namespace WindowsRemoteManager
+﻿namespace Abstract
 {
     public interface ILocalCacheService
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace WindowsRemoteManager.YandexDisk
+namespace Abstract
 {
     public class  LocalCacheService : ILocalCacheService
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsRemoteManagerMasterInterface", "WindowsRemoteManagerMasterInterface\WindowsRemoteManagerMasterInterface.csproj", "{09006D19-B9D3-480C-8E23-D14A87D952D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsRemoteManagerMasterBlazorInterface", "WindowsRemoteManagerMasterInterface\WindowsRemoteManagerMasterBlazorInterface.csproj", "{09006D19-B9D3-480C-8E23-D14A87D952D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WRMExecutiveConsoleApp", "WRMExecutiveConsoleApp\WRMExecutiveConsoleApp.csproj", "{A4E75087-D0AD-4BAF-A5FB-DA6472C70679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsRemoteManagerExecutiveConsoleInterface", "WRMExecutiveConsoleApp\WindowsRemoteManagerExecutiveConsoleInterface.csproj", "{A4E75087-D0AD-4BAF-A5FB-DA6472C70679}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramCommunicator", "TelegramInteractor\TelegramCommunicator.csproj", "{CA2EEEC9-C590-4F38-9268-E0BD98DEBDBF}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteManager", "RemoteMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{65AEF886-AFB0-4484-A06A-27E71FA7D36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotaManagerExecutive", "RemotaManagerExecutive\RemotaManagerExecutive.csproj", "{41A188E4-874D-4DE3-B4D2-6680F0EE358B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteManagerExecutive", "RemotaManagerExecutive\RemoteManagerExecutive.csproj", "{41A188E4-874D-4DE3-B4D2-6680F0EE358B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace WindowsRemoteManager
+namespace Abstract
 {
     public interface ILocalLogger
     {

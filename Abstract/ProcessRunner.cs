@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace WindowsRemoteManager.YandexDisk
+namespace Abstract
 {
     static class ProcessRunner
     {

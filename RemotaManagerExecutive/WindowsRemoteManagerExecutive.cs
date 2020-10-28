@@ -8,9 +8,9 @@ using System.Net.Mail;
 using System.Net;
 using System.Dynamic;
 using System.Threading.Tasks;
-using WindowsRemoteManager.YandexDisk;
 
-namespace WindowsRemoteManager
+
+namespace RemoteManagerExecutive
 {
     public class  WindowsRemoteManagerExecutive : WindowsRemoteManagerGeneral
     {

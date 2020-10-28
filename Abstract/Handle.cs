@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using WindowsRemoteManager.YandexDisk;
 
-namespace WindowsRemoteManager
+namespace Abstract
 {
     static class Handle
     {

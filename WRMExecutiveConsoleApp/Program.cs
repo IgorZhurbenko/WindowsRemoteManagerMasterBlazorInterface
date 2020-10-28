@@ -1,7 +1,7 @@
 ﻿using System;
-using WindowsRemoteManager;
 
-namespace WRMExecutiveConsoleApp
+
+namespace WindowsRemoteManagerExecutiveConsoleInterface
 {
     class Program
     {
