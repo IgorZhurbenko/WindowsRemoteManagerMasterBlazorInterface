@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramCommunicator", "Tel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteManagerMaster", "RemoteManager\RemoteManagerMaster.csproj", "{59FAF6D2-E0E0-4799-8A2A-C4A1AC8DD829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{65AEF886-AFB0-4484-A06A-27E71FA7D36F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "Abstract\Abstract.csproj", "{65AEF886-AFB0-4484-A06A-27E71FA7D36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteManagerExecutive", "RemotaManagerExecutive\RemoteManagerExecutive.csproj", "{41A188E4-874D-4DE3-B4D2-6680F0EE358B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteManagerExecutive", "RemotaManagerExecutive\RemoteManagerExecutive.csproj", "{41A188E4-874D-4DE3-B4D2-6680F0EE358B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteManagerMasterWebInterface", "RemoteManagerMasterWebInterface\RemoteManagerMasterWebInterface.csproj", "{D88A437D-477C-44D4-92D1-768094E2A84B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteManagerMasterWebInterface", "RemoteManagerMasterWebInterface\RemoteManagerMasterWebInterface.csproj", "{D88A437D-477C-44D4-92D1-768094E2A84B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
